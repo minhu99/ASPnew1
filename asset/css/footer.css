@@ -1,0 +1,84 @@
+/* ---------------------------FOOTER--------------------------------- */
+#footer{
+    background-color: #0a1b3f;
+    height: 340px;
+    color: white;
+    font-size: 16px;
+}
+.footer-widgets{
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.footer-widgets .row {
+    display: flex;
+    justify-content: space-between; 
+    width: 1213px;
+}
+.footer-widgets .row .col{
+    height: 260px;
+    width: 430px;
+    padding-left: 10px;
+}
+.footer-widgets .row .col hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-color: white;
+}
+#col-inner h3{
+    margin: 0px 0px 20px;
+    font-size: 20px;
+}
+/* #col-inner .social-icons a{
+    width: 2px;
+    height: 2px;
+    border-radius: 99%;
+    padding-left: 5px;
+}
+.social-icons .icon-facebook {
+    background-color: #014282;
+    border-radius: 99%;
+    padding: 2px ;
+}
+.social-icons .icon-instagram {
+    background-color: #820157;
+    border-radius: 99%;
+    padding: 2px 5px 2px 5px;
+}
+.fab, .far {
+    font-weight: 200px;
+    font-size: small;
+    color: white;
+
+} */
+.bullet-arrow{
+    padding: 5px 0 5px 0;
+    display: flex;  
+}
+
+.bullet-arrow .fas fa-angle-right{
+    font-size: 16px;
+    font-family: "fl-icons";
+    left: 0px;
+    position: absolute;
+    font-size: 16px;
+    color: #7a9c59;
+
+}
+.fa-angle-right:before {
+    padding-right: 15px;
+}
+
+
+/* --------------COPYRIGHT--------------- */
+#copyright{
+    height: 48px;
+    background-color: #5b5b5b;
+}
+.copyright-footer{
+    padding: 15px 0px 15px 0px;
+    text-align: center;
+    font-size: 12px;
+}
+

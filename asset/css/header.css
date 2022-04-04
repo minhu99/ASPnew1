@@ -1,0 +1,116 @@
+/* ----------------------------------HEADER------------------------------------ */
+
+#header{
+    background-color: #0a1b3f;
+    height: 90px + 43px;
+    color: white;
+}
+/* .top-bar{
+    height: 30px;
+    font-size: 12px;
+    line-height: 14px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+} */
+.header-main{
+    height: 90px;
+    background-color: white;
+}
+.header-main #masthead{
+    padding-top: 15px;
+    padding-left: 156px;
+    padding-right: 156px;
+    padding-bottom: 15px;
+
+
+}
+#masthead #logo img{
+    height: 61px;
+    max-width: 200px;
+    
+}
+#masthead #search{
+    float: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+#search .fas fa-search{
+    font-size: 25px;
+}
+form#search{
+    position: relative; 
+}
+form#search input{
+    width: 180px; 
+    height: 34px;
+    font-size: 15px;
+    background: rgba(0,0,0,.03);
+    color: #777777;
+    padding: 0px 42px 0px 12px;
+    border-radius: 99px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+form#search button{
+    background-color:#f7f7f7;
+    color:#777;
+    position: absolute;
+    border: none;
+    top: 20px;
+    right: 10px;  
+    outline: none;
+}
+form#search ::placeholder{
+    color:#777;
+    font-size: 13px;
+}
+
+ul#main-menu li a{
+    color: #cdcaca;
+    padding: 15px 15px;
+    margin-left: -5px;
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;
+    line-height: 16px;
+
+}
+ul#main-menu li a:hover{
+    color: white;
+    padding: 15px 15px;
+    margin-left: -5px;
+    display: inline-block;
+    font-size: 13px;
+    text-decoration: none;
+    display: block;  
+}
+
+.header-bottom{
+    height: 43px;
+    background-color: #0a1b3f;
+    align-items: center;
+}
+.header-bottom .fa {
+    display: none;
+    
+}
+#main-menu{
+    display: flex;
+    padding-left: 350px;
+    padding-bottom: 350px;
+
+}
+.header-bottom ul{
+    list-style: none !important;   
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#main-menu li{
+    float: left;
+}
